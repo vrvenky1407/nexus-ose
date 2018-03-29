@@ -76,7 +76,12 @@
             "name": "sonatype-nexus3"
          },
          "spec": {
-            "dockerImageRepository": "docker.io/sonatype/nexus3:3.0.2"
+            "dockerImageRepository": "docker.io/sonatype/nexus3"
+            "tags": [
+               {
+                  "name": "3.0.2"
+               }
+            ]
          }
       },
       {
